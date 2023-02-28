@@ -6,7 +6,8 @@
     <ContentPage.Resources>
         <Color x:Key="bgColor">#db3a34</Color>
         <Color x:Key="textColor">#ffc857</Color>
-        <Style TargetType="VerticalStackLayout">
+        <Style TargetType="StackBase"
+               ApplyToDerivedTypes="True">
             <Setter Property="VerticalOptions" Value="Center"/>
             <Setter Property="Padding" Value="30,0"/>
             <Setter Property="Spacing" Value="25"/>
