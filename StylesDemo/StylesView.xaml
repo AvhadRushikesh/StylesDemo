@@ -5,6 +5,12 @@
              Title="StylesView">
 
     <ContentPage.Resources>
+        <Style TargetType="Label">
+            <Setter Property="FontSize" Value="Title"/>
+            <Setter Property="HorizontalTextAlignment" Value="Center"/>
+            <Setter Property="TextColor" Value="{AppThemeBinding Light=DarkBlue,Dark=White}"/>
+            <Setter Property="FontSize" Value="Title"/>
+        </Style>
         <Style TargetType="Button"
                Class="ButtonText">
             <Setter Property="FontSize" Value="Large"/>
@@ -23,6 +29,7 @@
     </ContentPage.Resources>
     
     <VerticalStackLayout>
+        <Label Text="HEY!"/>
         <Button Text=".NET MAUI!"
                 StyleClass="ButtonText,DarkButton"/>
         <Button Text=".NET MAUI!"
