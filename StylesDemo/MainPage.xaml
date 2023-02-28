@@ -13,7 +13,7 @@
             <Button Text="LOGIN">                
             </Button>
             <Button Text="VISIT WEBSITE"
-                    Style="{StaticResource buttonStyle}"/>
+                    Style="{StaticResource specialButton}"/>
 
         </VerticalStackLayout>
     </ScrollView>
